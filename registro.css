@@ -1,0 +1,33 @@
+body{
+    background-image:url(https://thebarbell.com/wp-content/uploads/2023/07/cbum-workout.png);
+    
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    
+}
+
+#logo {
+    color: beige;
+    font-size: 45px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+a{
+    color: beige;
+    text-decoration: none;
+}
+a:hover{
+    color: aquamarine;
+
+}
