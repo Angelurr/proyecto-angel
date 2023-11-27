@@ -1,33 +1,65 @@
+
 body{
     background-image:url(https://thebarbell.com/wp-content/uploads/2023/07/cbum-workout.png);
     
 }
-nav {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding-top: 20px;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-weight: bold;
+    justify-content: center;
+    min-height: 100vh;
     
 }
-
-#logo {
-    color: beige;
-    font-size: 45px;
-}
-
-ul li{
-    display: inline-block;
-    padding: 0 20px;
-}
-
-a{
-    color: beige;
+#atras{
+    margin-bottom: 700px;
     text-decoration: none;
 }
-a:hover{
-    color: aquamarine;
+form{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    text-align: center;
+    padding: 20px 25px;
+    box-shadow: 0 5px 10px rgba(71, 3, 6, 0.7);
+}
+form .tittle{
+    color: #252525;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+}
+form label{
+    margin-bottom: 35px;
+}
+form label input{
+    outline: none;
+    border: none;
+    color: #252525;
+    border-bottom: solid 1px black;
+    padding: 0 5px;
+    font-size: 18px;
+}
+
+form label input::placeholder{
+    color: rgba(37, 37, 37, 0.5);
+}
+form .link{
+    color: #252525;
+    margin-bottom: 15px;
+}
+form button{
+    color: #fff;
+    border: none;
+    background: linear-gradient(to right,black,black);
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
 
 }

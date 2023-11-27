@@ -9,18 +9,28 @@
 
 </head>
 <body>
-    <header>
-        <nav>
-            <h1 id="logo">SAVIPROD</h1>
-            <ul>
-                <li><a href="./index.html">INICIO</a></li>
-                <li><a href="productos.html">PRODUCTOS</a></li>
-                <li><a href="">OPCIONES</a></li>
-                <li><a href="">AYUDA</a></li>
-            </ul>
-        </nav>
-    </header>
+   <a id="atras"  href="./index.html"><h1>VOLVER ATRAS</h1></a>
 
-    <script src="registro1.js"></script>
+    <form action="">
+    <h1 class="title">LOGIN</h1>
+    <br>
+    <label >Email:
+        <br>
+        <input type="text"  id="username"  placeholder="Escriba su email" autofocus>
+        </label>
+    <label >Contraseña:
+        <br>
+        <input type="password"  id="password"  placeholder="Contraseña" >
+        </label>
+        <a href="#" class="link">Se te olvido la contraseña?</a>
+        <button id="button" onclick="cargar()">Iniciar</button>
+
+    </form>
+
+    
+
+
+
+    <script src="./js/registro1.js"></script>
 </body>
 </html>
