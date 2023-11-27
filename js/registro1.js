@@ -1,27 +1,27 @@
-function cargar(){
+function cargar() {
     let nombre = document.getElementById("username");
     let contraseña = document.getElementById("password");
-    
-   
 
     const data = {
-        username: username.value,
-        password: password.value
+        username: nombre.value,
+        password: contraseña.value
     }
     console.log(data);
 
-    if(nombre.value=="" || contraseña.value==""){
-        alert("esta vacio")
+}
+
+function load(){
+    let nombre = document.getElementById("username");
+    let contraseña = document.getElementById("password");
+    if (nombre.value == "" || contraseña.value == "") {
+        alert("Está vacío");
     }
 
-    if(contraseña.value>=8){
-        alert("se a pasado del limite");
-    }else{
-        alert("esta en limite");
+    if (contraseña.value.length > 8) {
+        alert("no esta en el limite");
+    } else {
+        alert("Está en el límite");
     }
-
-    
-
 
 
 }
