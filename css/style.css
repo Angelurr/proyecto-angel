@@ -176,6 +176,19 @@ li a img{
     
    
 }
+.footer-copyright{
+    background-color: #5b9638;
+    color: #fff;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.footer-copyright p{
+    margin-bottom: 0px;
+    
+}
+
+
 
 
 
